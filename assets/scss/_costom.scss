@@ -1,0 +1,73 @@
+.hidden{
+    display: none;
+}
+.navbar-nav{
+    
+    .btn-link{
+        i{
+            transform: translateY(1px);
+            margin-right: 10px;
+            font-size: 1.3em;
+        }
+        color: rgba(0, 0, 0, 0.5);
+    }
+
+    .card-body{
+        padding-top: 0;
+        padding-left: 40px;
+        padding-bottom: 10px;
+        .nav-item{
+            img{
+                width: 30px;
+                height: 30px;
+                margin-right: 10px;
+            }
+        }
+    }
+    
+    
+}
+
+.nav-top{
+    margin-left: -5px;
+    .btn-success{
+        display: block;
+        width: 100%;
+    }
+}
+
+.navbar-brand img{
+    height: 40px;
+}
+
+.comments-bottom{
+    li{
+        list-style: none;
+        img{
+            width: 50%;
+            border-radius: 50%;
+            margin: auto;
+            float: right;
+        }
+        .col-sm-1{
+            padding-right: 0;
+        }
+    }
+}
+
+.google-map{
+    display: flex;
+    .menu{
+        flex:1;
+        background-color: #333;
+        padding: 10px;
+        h2{
+            color: white;
+        }
+    }
+    .map{
+        flex:5
+    }
+}
+
+
